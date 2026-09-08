@@ -167,6 +167,9 @@ section{padding:96px 0}
 .dark .certs{border-top:1px solid #2B3138}
 .dark .cert{display:flex;justify-content:space-between;gap:20px;padding:16px 4px;border-bottom:1px solid #2B3138;font-family:var(--mono);font-size:13px;letter-spacing:.04em;text-transform:uppercase}
 .dark .cert span:last-child{color:#8B949E;text-align:right}
+.dark a.cert{text-decoration:none;color:var(--panel-ink);transition:background .15s,padding-left .15s}
+.dark a.cert:hover{background:#1D2126;padding-left:12px}
+.dark a.cert:hover span:last-child{color:var(--signal)}
 
 /* ---------- footer ---------- */
 footer{padding:110px 0 40px}
@@ -406,65 +409,6 @@ footer .email:hover{color:var(--signal);border-color:var(--signal)}
   </div>
 </section>
 
-<section id="trailhead" style="padding-top:0">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <h2>Trailhead — AI &amp; Data</h2>
-      <span class="count">Get Started with Artificial Intelligence · 2,000 pts</span>
-    </div>
-    <div class="manifest stagger">
-      <a class="row" href="https://trailhead.salesforce.com/content/learn/modules/artificial-intelligence-fundamentals" target="_blank" rel="noopener">
-        <span class="pid">01</span>
-        <span><span class="ptitle">Artificial Intelligence Fundamentals</span><span class="pdesc">The basics of AI and the tech behind its capabilities.</span></span>
-        <span class="meta">100 pts<br><b>~10 min</b></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="row" href="https://trailhead.salesforce.com/content/learn/modules/generative-ai-basics" target="_blank" rel="noopener">
-        <span class="pid">02</span>
-        <span><span class="ptitle">Generative AI Basics</span><span class="pdesc">Capabilities of generative AI and the technology that powers it.</span></span>
-        <span class="meta">200 pts<br><b>~20 min</b></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="row" href="https://trailhead.salesforce.com/content/learn/modules/natural-language-processing-basics" target="_blank" rel="noopener">
-        <span class="pid">03</span>
-        <span><span class="ptitle">Natural Language Processing Basics</span><span class="pdesc">How AI enables computers to interpret and generate human language.</span></span>
-        <span class="meta">200 pts<br><b>~20 min</b></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="row" href="https://trailhead.salesforce.com/content/learn/modules/data-fundamentals-for-ai" target="_blank" rel="noopener">
-        <span class="pid">04</span>
-        <span><span class="ptitle">Data Fundamentals for AI</span><span class="pdesc">Why data and ethics matter for the AI innovations shaping the future.</span></span>
-        <span class="meta">400 pts<br><b>~35 min</b></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="row" href="https://trailhead.salesforce.com/content/learn/modules/data-analytics-fundamentals" target="_blank" rel="noopener">
-        <span class="pid">05</span>
-        <span><span class="ptitle">Data Analytics Fundamentals</span><span class="pdesc">Data analytics types and how they apply to common use cases.</span></span>
-        <span class="meta">300 pts<br><b>~35 min</b></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="row" href="https://trailhead.salesforce.com/content/learn/modules/correlation-and-regression" target="_blank" rel="noopener">
-        <span class="pid">06</span>
-        <span><span class="ptitle">Correlation and Regression</span><span class="pdesc">Core concepts for analyzing relationships in data.</span></span>
-        <span class="meta">200 pts<br><b>~10 min</b></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="row" href="https://trailhead.salesforce.com/content/learn/modules/responsible-creation-of-artificial-intelligence" target="_blank" rel="noopener">
-        <span class="pid">07</span>
-        <span><span class="ptitle">Responsible Creation of Artificial Intelligence</span><span class="pdesc">Removing bias from data and algorithms to build ethical AI systems.</span></span>
-        <span class="meta">400 pts<br><b>~45 min</b></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="row" href="https://trailhead.salesforce.com/content/learn/modules/image-generation-and-diffusion-models" target="_blank" rel="noopener">
-        <span class="pid">08</span>
-        <span><span class="ptitle">Generative AI for Images</span><span class="pdesc">Techniques for creating high quality images with AI.</span></span>
-        <span class="meta">200 pts<br><b>~20 min</b></span>
-        <span class="arrow">→</span>
-      </a>
-    </div>
-  </div>
-</section>
-
 <section class="dark">
   <div class="wrap">
     <div class="sec-head reveal">
@@ -485,6 +429,9 @@ footer .email:hover{color:var(--signal);border-color:var(--signal)}
       <div class="cert"><span>Corporate Analyst Development Program — JPMorgan Chase</span><span>Forage</span></div>
       <div class="cert"><span>AI Fluency: Framework & Foundations</span><span>Anthropic Academy</span></div>
       <div class="cert"><span>Claude 101</span><span>Anthropic</span></div>
+    </div>
+    <div class="certs stagger">
+      <a class="cert badge-link" id="trailhead" href="https://www.salesforce.com/trailblazer/jsnse35f7nz39tapwt" target="_blank" rel="noopener"><span>Badges</span><span>Trailhead profile →</span></a>
     </div>
   </div>
 </section>
